@@ -1,7 +1,9 @@
 {
   "name": "4connect",
   "version": "0.1.0",
-  "private": true,
+  "description": "Connect Four Game",
+  "author": "Rashed Ahmed <ruman.rush@gmail.com> (http://rashed.vercel.app/)",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,0 +1,59 @@
+/*---- Variables ----*/
+:root {
+	--clr-accent-dark: #5c2dd5;
+	--clr-accent-light: #7945ff;
+
+	--clr-primary-dark: #000000;
+	--clr-primary-mid: #929292;
+	--clr-primary-light: #ffffff;
+
+	--clr-player-home: #fd6886;
+	--clr-player-away: #ffce68;
+}
+
+/*---- Reset CSS ----*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+img,
+svg {
+	max-width: 100%;
+	display: block;
+}
+
+/*---- App ----*/
+body {
+	background-color: var(--clr-accent-dark);
+}
+
+.app {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*---- Menu ----*/

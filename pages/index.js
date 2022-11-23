@@ -1,4 +1,3 @@
-import GameBoard from '../components/GameBoard'
 import Menu from '../components/Menu'
 
 function Index() {

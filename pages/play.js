@@ -1,6 +1,6 @@
 import GameBoard from '../components/GameBoard'
 
-const play = () => {
+const Play = () => {
 	return (
 		<div className='app'>
 			<GameBoard />
@@ -8,4 +8,4 @@ const play = () => {
 	)
 }
 
-export default play
+export default Play

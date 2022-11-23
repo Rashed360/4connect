@@ -11,13 +11,13 @@ const Menu = () => {
 			<Image className='logo' src={LOGO} width={57} height={57} />
 			<Link href='/play'>
 				<div className='menu-item home'>
-					<p>Play vs cpu</p>
+					<span>Play vs cpu</span>
 					<Image src={CPU} width={81} height={47} />
 				</div>
 			</Link>
 			<Link href='/play'>
 				<div className='menu-item away'>
-					<p>Play vs player</p>
+					<span>Play vs player</span>
 					<Image src={PLR} width={81} height={47} />
 				</div>
 			</Link>

@@ -1,3 +1,8 @@
+import Image from 'next/image'
+import Link from 'next/link'
+
+import TICK from '../assets/tick.svg'
+
 const Rules = () => {
 	return (
 		<div className='menu-box rules'>
@@ -14,6 +19,11 @@ const Rules = () => {
 				<li>The game ends when there is a 4-in-a-row or a stalemate.</li>
 				<li>The starter of the previous game goes second on the next game.</li>
 			</ol>
+			<Link href='/'>
+				<div className='tick'>
+					<Image src={TICK} width={34} height={15} />
+				</div>
+			</Link>
 		</div>
 	)
 }

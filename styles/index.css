@@ -176,7 +176,8 @@ svg {
 
 /*---- Responsive ----*/
 .game-board {
-	width: 620px;
+	max-width: 558px;
+	/* width: 620px; */
 	aspect-ratio: 1.12/1;
 
 	display: flex;
@@ -208,8 +209,8 @@ svg {
 	opacity: 0;
 	width: 50%;
 	height: 50%;
-	border: 6px solid #ffffdd;
-	border-radius: 18px;
+	border: 5px solid #ffffff;
+	border-radius: 50%;
 	transition: all 300ms ease-out;
 }
 .game-board .slot:hover .highlight {
@@ -222,7 +223,7 @@ svg {
 	top: 80vh;
 	border-top-left-radius: 60px;
 	border-top-right-radius: 60px;
-	background: #5c2dd5;
+	background: var(--clr-accent-dark);
 }
 
 /*---- Responsive ----*/
@@ -238,7 +239,7 @@ svg {
 		border-radius: 0;
 	}
 }
-@media (min-width: 620px) {
+@media (min-width: 558px) {
 	.game-board {
 		padding: 15px;
 		padding-bottom: 50px;

@@ -8,17 +8,17 @@ import LOGO from '../assets/logo.svg'
 const Menu = () => {
 	return (
 		<div className='menu-box'>
-			<Image className='logo' src={LOGO} width={57} height={57} />
+			<Image className='logo' src={LOGO} width={57} height={57} alt='' />
 			<Link href='/play'>
 				<div className='menu-item home'>
 					<span>Play vs cpu</span>
-					<Image src={CPU} width={81} height={47} />
+					<Image src={CPU} width={81} height={47} alt='' />
 				</div>
 			</Link>
 			<Link href='/play'>
 				<div className='menu-item away'>
 					<span>Play vs player</span>
-					<Image src={PLR} width={81} height={47} />
+					<Image src={PLR} width={81} height={47} alt='' />
 				</div>
 			</Link>
 			<Link href='/rules'>

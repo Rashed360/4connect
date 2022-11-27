@@ -21,7 +21,7 @@ const Rules = () => {
 			</ol>
 			<Link href='/'>
 				<div className='tick'>
-					<Image src={TICK} width={34} height={15} />
+					<Image src={TICK} width={34} height={15} alt='' />
 				</div>
 			</Link>
 		</div>

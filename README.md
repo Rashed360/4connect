@@ -1,6 +1,4 @@
 # Four Connect (4connect) Game
-🎮 Play here [4Connect](https://4connect.vercel.app/), with your friends!
-
 
 ## Getting Started (Devlopment)
 UI inspired by [Connect Four game](https://www.frontendmentor.io/challenges/connect-four-game-6G8QVH923s) challenge by [Frontend Mentor](https://www.frontendmentor.io/).

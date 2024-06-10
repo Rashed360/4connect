@@ -7,6 +7,7 @@ const GameBoard = () => {
 						<div className='highlight'></div>
 					</div>
 				))}
+				<div className='game-turn'></div>
 			</div>
 			<div className='game-state'></div>
 		</>

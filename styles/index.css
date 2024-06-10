@@ -1,5 +1,15 @@
-/*---- Fonts ----*/
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
 
 /*---- Variables ----*/
 :root {
@@ -51,8 +61,8 @@ svg {
 
 /*---- App ----*/
 .app {
-	position: relative;
 	height: 100vh;
+	overflow: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -187,6 +197,7 @@ svg {
 	padding: calc((15 / 620) * 100%);
 	padding-bottom: calc((50 / 620) * 100%);
 
+	position: relative;
 	background: #fffeff;
 	border: 3px solid #000000;
 	box-shadow: 0px 10px 0px #000000;
@@ -224,6 +235,22 @@ svg {
 	border-top-left-radius: 60px;
 	border-top-right-radius: 60px;
 	background: var(--clr-accent-dark);
+}
+.game-turn {
+	width: 180px;
+	height: 142px;
+
+	position: absolute;
+	bottom: -105px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	background: #fd6687;
+	border: 3px solid #000000;
+	box-shadow: 0px 10px 0px #000000;
+	/* border-radius: 28px; */
+	border-radius: 50% 50% 10% 10% / 50% 50% 10% 10%;
+	/* clip-path: polygon(50% 0, 100% 25%, 100% 100%, 0 100%, 0 25%); */
 }
 
 /*---- Responsive ----*/
